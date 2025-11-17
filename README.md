@@ -28,18 +28,6 @@ To use NVDB-RS in your project, add it as a dependency in your `Cargo.toml` file
 nvdb-rs = "0.1.0"
 ```
 
-## Tests
-The project includes comprehensive tests to ensure stability and correctness:
-- **Segment Tests**:
-  - Writes vector data to segments and verifies data consistency.
-  - Reads and indexes data for search operations.
-
-- **Index Tests**:
-  - Validates k-NN searches using various distance metrics.
-
-- **Metrics Tests**:
-  - Ensures accurate calculations for Euclidean, Cosine, and Dot Product scores.
-
 ### Running Tests
 Run the tests using Cargo:
 ```bash
